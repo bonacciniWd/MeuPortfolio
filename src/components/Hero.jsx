@@ -1,8 +1,6 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import Tilt from "react-tilt";
 
-import heroImage from "../images/D..png";
 
 const Hero = () => {
   return (
@@ -23,9 +21,6 @@ const Hero = () => {
             Eu desenvolvo objetos em 3D, Interfaces <br className='sm:block hidden' />
             de usuário e aplicações web.
           </p>
-          <Tilt>
-          <img src={heroImage} alt="Hero Image" className="mt-2" style={{width:"300px", height:"auto", borderRadius:'20px', marginTop:'30px'}} />
-          </Tilt>
 
         </div>
       </div>
