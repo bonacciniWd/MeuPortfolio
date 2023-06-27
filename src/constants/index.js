@@ -61,34 +61,6 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
   },
@@ -173,26 +145,26 @@ const testimonials = [
   {
     testimonial:
       "Eu achava que era impossível fazer um site tão bonito quanto o nosso produto, mas Denis me provou errado.",
-    name: "Sara Lee",
+    name: "Sara Scheiffer",
     designation: "CFO",
     company: "HeyDoser Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: "https://i.ibb.co/FqrT0NT/2022-09-13-09-31-7040-E3-EB-92-BC-4-E43-AE84-D7-E85555215-C.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Denis does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: "https://i.ibb.co/NmDtNgx/2022-10-30-23-51-A96-CF084-FB8-F-4675-8-B9-E-5-B5-CBE164-BBB.jpg",
   },
   {
     testimonial:
       "After Denis optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
+    name: "Ahmir Fajard",
+    designation: "CEO",
     company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: "https://i.ibb.co/nP8GNgn/2022-02-28-13-56-460-BA5-BE-239-B-4-D7-E-9417-849-C8-EEF62-F8.jpg",
   },
 ];
 
