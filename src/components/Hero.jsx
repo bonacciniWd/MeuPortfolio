@@ -24,7 +24,7 @@ const Hero = () => {
             de usuário e aplicações web.
           </p>
           <Tilt>
-          <img src={heroImage} alt="Hero Image" className="mt-2" style={{width:"300px", height:"auto", marginLeft:'380px', borderRadius:'20px', marginTop:'30px'}} />
+          <img src={heroImage} alt="Hero Image" className="mt-2" style={{width:"300px", height:"auto", borderRadius:'20px', marginTop:'30px'}} />
           </Tilt>
 
         </div>
