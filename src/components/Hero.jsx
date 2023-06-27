@@ -21,13 +21,15 @@ const Hero = () => {
             Eu desenvolvo objetos em 3D, Interfaces <br className='sm:block hidden' />
             de usuário e aplicações web.
           </p>
-
+          <p>
+          ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
+          </p>
         </div>
       </div>
 
       
 
-      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-bottom items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div
