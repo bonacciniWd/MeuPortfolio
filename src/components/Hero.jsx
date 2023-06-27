@@ -23,7 +23,6 @@ const Hero = () => {
             Eu desenvolvo objetos em 3D, Interfaces <br className='sm:block hidden' />
             de usuário e aplicações web.
           </p>
-<<<<<<< HEAD
           <Tilt>
           <img src={heroImage} alt="Hero Image" className="mt-2" style={{width:"300px", height:"auto", marginLeft:'380px', borderRadius:'20px', marginTop:'30px'}} />
           </Tilt>
@@ -33,17 +32,9 @@ const Hero = () => {
 
       
 
-=======
-          <p>
-          
-          </p>
-        </div>
-      </div>
-
->>>>>>> 58ee606f91d565849147cb479e57485b41582bb8
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
-          <div className='w-[35px] h-[60px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
+          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div
               animate={{
                 y: [0, 24, 0],
