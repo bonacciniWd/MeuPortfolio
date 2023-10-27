@@ -71,16 +71,16 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>Meu trabalho</p>
+        <p className={`${styles.sectionSubText} `}>Nosso trabalho</p>
         <h2 className={`${styles.sectionHeadText}`}>Projetos</h2>
       </motion.div>
 
       <div className='w-full flex'>
         <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
+          variants={fadeIn("", "", 0.4, 1)}
+          className='mt-3 text-secondary text-[15px] max-w-2xl leading-[30px]'
         >
-          Os projetos listados à baixo, são alguns exemplos de repositórios criados por mim à partir de algumas frameworks Javascript, Backbone, React, React-Native e Vue.
+          Os projetos listados à baixo, são alguns exemplos de repositórios criados pela VRZ à partir de algumas frameworks Javascript, Backbone, React, React-Native e Vue.
            
         </motion.p>
       </div>
