@@ -72,25 +72,7 @@ const Hero = () => {
             </pre>
           </div>
 
-        <div style={{marginTop:"12dvh", marginRight:"0%"}}>
-          <Canvas>
-                   <Suspense fallback={null}>
-                       <OrbitControls enableZoom={false} />
-                      <ambientLight intensity={0.5} />
-                       <directionalLight position={[3, 2, 1]} />
-                      <Sphere args={[1, 100, 200]} scale={2.4}>
-                           <MeshDistortMaterial
-                           color="rgb(10, 244, 80)"
-                          attach="material"
-                           distort={0.5}
-                       speed={3}
-                       transparent={true}
-                       opacity={0.7}
-                    />
-                 </Sphere>
-              </Suspense>
-          </Canvas>
-        </div> 
+       
         <div>
           <img className="banner-hero" src={BannerHero} alt=""/>  
         </div>           

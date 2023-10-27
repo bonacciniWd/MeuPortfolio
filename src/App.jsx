@@ -12,7 +12,7 @@ const App = () => {
         </div>
         <StarsCanvas />
 
-        <Hero />
+        
        
         <Works />
         
